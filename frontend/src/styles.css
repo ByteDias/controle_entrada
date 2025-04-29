@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    min-height: 100vh; /* Garante que o body ocupe toda a altura da tela */
+    margin: 0;
+    background: linear-gradient(17deg,#833ab4 0%, #fd1d1d 50%, #fcb045 100%);
+  }

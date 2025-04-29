@@ -1,0 +1,15 @@
+
+.color {
+    background-color: var(--assai-color-red);
+
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    
+    display: flex;
+    justify-content: center;
+
+    width: 40vw;
+}
+

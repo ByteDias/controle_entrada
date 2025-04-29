@@ -1,0 +1,33 @@
+.navbar { 
+    width: 85vw;
+    padding: 17px 30px;
+    border-radius: 9px;
+   
+
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 4%;
+    left: 50%;
+
+}
+.menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+   
+
+    list-style: none;
+   
+
+    font-family: "Boldonse", system-ui;
+    font-size: 1em; 
+}
+li:hover {
+    color: black;
+    font-size: 1.2em;
+    border-radius: 15px;
+    cursor: pointer;
+
+    transition: 1.5s;
+}
