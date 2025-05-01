@@ -1,17 +1,12 @@
 import express from 'express'
+import routes from './routes.js'
 
-import SelecaoController from './app/controllers/SelecaoController.js'
 const app = express()
 
+// Indica para o express ler JSON no body
 app.use(express.json())
 
-//Rotas
-app.get('/selecoes', SelecaoController.index)
-app.get('/selecoes/:id', SelecaoController.show)
-app.post('/selecoes', SelecaoController.store)
-app.put('/selecoes/:id', SelecaoController.update)
-app.delete('/selecoes/:id', SelecaoController.delete)
-
-
+// Usar o Router
+app.use(routes)
 
 export default app

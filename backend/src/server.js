@@ -1,6 +1,6 @@
-import app from "./src/app.js";
+import app from "./app.js";
 
-const PORT = 8081
+const PORT = process.env.PORT || 8081
 
    // Escutador da porta
    app.listen(PORT, () => {
