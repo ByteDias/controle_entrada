@@ -13,7 +13,6 @@
   "description": "Projeto de backend para o sistema de cadastro de usuários com autenticação JWT.",
   "dependencies": {
     "express": "^5.1.0",
-    "mongoose": "^8.14.0",
-    "mysql2": "^3.14.1"
+    "mongoose": "^8.14.0"
   }
 }
