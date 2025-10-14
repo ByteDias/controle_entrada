@@ -6,8 +6,7 @@ import { FormPrestadoresComponent } from '../form-prestadores/form-prestadores.c
 @Component({
   selector: 'app-home',
   imports: [
-    HeaderComponent,
-    FormPrestadoresComponent
+    FormPrestadoresComponent,
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
