@@ -3,9 +3,7 @@ import { FormPrestadoresComponent } from '../form-prestadores/form-prestadores.c
 
 @Component({
   selector: 'app-header',
-  imports: [
-    FormPrestadoresComponent,
-  ],
+  imports: [],
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
 })

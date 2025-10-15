@@ -10,5 +10,5 @@
 body {
     min-height: 100vh; /* Garante que o body ocupe toda a altura da tela */
     margin: 0;
-    background: linear-gradient(17deg,#833ab4 0%, #fd1d1d 50%, #fcb045 100%);
-  }
+    background: linear-gradient(181deg,rgba(18, 46, 64, 1) 0%, rgba(245, 143, 88, 1) 92%);
+}

@@ -18,12 +18,21 @@
    
 
     list-style: none;
-   
+    text-decoration: none;
 
     font-family: "Boldonse", system-ui;
     font-size: 1em; 
 }
-li:hover {
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white
+}
+
+li a:hover {
     color: black;
     font-size: 1.2em;
     border-radius: 15px;
